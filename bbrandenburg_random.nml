@@ -8,7 +8,7 @@ grf {
 
 town_names(praefix){
 	{
-	text("Bad ", 2),
+	text("Bad ", 3),
 	text("Lutherstadt ", 1),
 	text("Burg ", 1),
 	text("Stadt ",1),
@@ -24,6 +24,8 @@ town_names(praefix){
 	text("Unter", 1),
 	text("Nieder ", 2),
 	text("Hohen ", 1),
+	text("Stadtrandsiedlung ", 1),
+	text("Französisch", 1),
 	text("Neu", 2),
 	text("Alt", 2),
 	text("Königs ", 2),
@@ -358,6 +360,64 @@ town_names(stamm) {
 	text("Zieth", 1),
 	text("Zilten", 1),
 	text("Zoss", 1),
+	text("", 1),
+	text("Wedd", 1),
+	text("Moa", 1),
+	text("Tier", 1),
+	text("Gesund", 1),
+	text("Friedrichs", 1),
+	text("Kreuz", 1),
+	text("Prenzlauer ", 1),
+	text("Weißen", 1),
+	text("Kar", 1),
+	text("Malch", 1),
+	text("Wilhelms", 1),
+	text("Charlotten", 1),
+	text("Wilmers", 1),
+	text("Schmargen", 1),
+	text("Grune", 1),
+	text("West", 1),
+	text("Span", 1),
+	text("Lank", 1),
+	text("Zehlen", 1),
+	text("Dahl", 1),
+	text("Nikolas", 1),
+	text("Wann", 1),
+	text("Schlachten", 1),
+	text("Frieden", 1),
+	text("Tempel", 1),
+	text("Köll", 1),
+	text("Bri", 1),
+	text("Rud", 1),
+	text("Gropius", 1),
+	text("Trept", 1),
+	text("Plänter", 1),
+	text("Baumschulen", 1),
+	text("Glienick", 1),
+	text("Adlers", 1),
+	text("Bohns", 1),
+	text("Köpen", 1),
+	text("Rahns", 1),
+	text("Grün", 1),
+	text("Müggel", 1),
+	text("Schmöck", 1),
+	text("Mar", 1),
+	text("Bies", 1),
+	text("Kauls", 1),
+	text("Mahls", 1),
+	text("Hellers", 1),
+	text("Karls", 1),
+	text("Lichten", 1),
+	text("Warten", 1),
+	text("Hohenschön", 1),
+	text("Fenn", 1),
+	text("Rummels", 1),
+	text("Reinicken", 1),
+	text("Konrads", 1),
+	text("Frohn", 1),
+	text("Waidmanns", 1),
+	text("Lüb", 1),
+	text("Borsig", 1),
 	}
 }
 town_names(suffix) {
@@ -418,6 +478,22 @@ town_names(suffix) {
 	text("luch", 1),
 	text("egk", 1),
 	text("beck", 1),
+	text("ing", 1),
+	text("it", 1),
+	text("hain", 1),
+	text("lust", 1),
+	text("zahn", 1),
+	text("heim", 1),
+	text("hagen", 1),
+	text("hof", 1),
+	text("weide", 1),
+	text("rade", 1),
+	text("er Feld", 1),
+	text("horst", 1),
+	text("holz", 1),
+	text("viertel", 1),
+	text("brunnen", 1),
+	text("end", 1),
 	}
 }
 
@@ -502,7 +578,6 @@ town_names(stammzwei) {
 	text("Rüders", 1),
 	text("Schön", 1),
 	text("Schöne", 1),
-	text("Schöner", 1),
 	text("Schorf", 1),
 	text("Schwarz", 1),
 	text("Seddiner ", 1),
@@ -556,6 +631,8 @@ town_names(suffixzwei) {
 	text("werk", 1),
 	text("münde", 1),
 	text("grabe", 1),
+	text("er Feld", 1),
+	text("hain", 1),
 	text("", 1),
 	}
 }
@@ -586,6 +663,10 @@ town_names(region) {
 	text(" (Oderbruch)", 1),
 	text("/Nordbahn", 1),
 	text(" (Uckermark)", 1),
+	text("-Nord", 1),
+	text("-Süd", 1),
+	text("-West", 1),
+	text("-Ost", 1),
 	}
 }
 
@@ -595,10 +676,10 @@ town_names(doppelname) {
 	text("-",1),
 	}
 	{
-	 	town_names(stammzwei,2)
+	 	town_names(stammzwei,1)
 	}
 	{
-	 	town_names(suffixzwei,2)
+	 	town_names(suffixzwei,1)
 	}
 }
 
@@ -615,7 +696,7 @@ town_names {
 	 	town_names(suffix,1)
 	}
 	{
-		text("",13),
+		text("",5),
 		town_names(doppelname,1),
 		town_names(suffixzwei,2)
 	}
