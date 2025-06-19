@@ -583,7 +583,7 @@ town_names(region) {
 	text("/Prignitz", 1),
 	text("/Lausitz", 1),
 	text("/Fläming", 1),
-	text(" (Oderbruch", 1),
+	text(" (Oderbruch)", 1),
 	text("/Nordbahn", 1),
 	text(" (Uckermark)", 1),
 	}

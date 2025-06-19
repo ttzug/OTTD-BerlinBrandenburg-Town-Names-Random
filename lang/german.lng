@@ -2,7 +2,7 @@
 # This is the German language file
 
 # GRF name and description definitions
-STR_GRF_NAME        :Berlin Ortsteile als Stadtnamen
-STR_GRF_DESCRIPTION :Alle offiziellen Ortsteile Berlins als Stadtnamen
+STR_GRF_NAME        :Berlin-Brandenburg Stadtnamen Generator
+STR_GRF_DESCRIPTION :Zufällige Stadtnamen größtenteils basierend auf Brandenburgischen Gemeinden
 
 STR_GAME_OPTIONS_TOWN_NAME_BBRANDOM :Berlin-Brandenburg Zufällig
