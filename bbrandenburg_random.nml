@@ -2,18 +2,18 @@ grf {
 	grfid: "TZ\00\04";
 	name: string(STR_GRF_NAME);
 	desc: string(STR_GRF_DESCRIPTION);
-	version: 1;
+	version: 2;
 	min_compatible_version: 0;
 }
 
 town_names(praefix){
-{
-	text("Bad ", 4),
+	{
+	text("Bad ", 2),
 	text("Lutherstadt ", 1),
-	text("Burg ", 2),
-	text("Stadt ",2),
-	text("Alt ", 4),
-	text("Neu ", 4),
+	text("Burg ", 1),
+	text("Stadt ",1),
+	text("Alt ", 2),
+	text("Neu ", 2),
 	text("Neu-", 1),
 	text("Kloster ", 1),
 	text("Groß ", 2),
@@ -27,10 +27,10 @@ town_names(praefix){
 	text("Neu", 2),
 	text("Alt", 2),
 	text("Königs ", 2),
-}
+	}
 }
 town_names(stamm) {
-{
+	{
 	text("Berl", 1),
 	text("Ahrens", 1),
 	text("Döb", 1),
@@ -358,10 +358,10 @@ town_names(stamm) {
 	text("Zieth", 1),
 	text("Zilten", 1),
 	text("Zoss", 1),
-}
+	}
 }
 town_names(suffix) {
-{
+	{
 	text("burg", 1),
 	text("berg", 1),
 	text("berge", 1),
@@ -418,48 +418,187 @@ town_names(suffix) {
 	text("luch", 1),
 	text("egk", 1),
 	text("beck", 1),
-}
+	}
 }
 
+town_names(stammzwei) {
+	{
+	text("Ahrens", 1),
+	text("Hütten", 1),
+	text("Anger", 1),
+	text("Belz", 1),
+	text("Freien", 1),
+	text("Lieben", 1),
+	text("Barnim", 1),
+	text("Bern", 1),
+	text("Berste", 1),
+	text("Birken", 1),
+	text("Blanken", 1),
+	text("Boitzen", 1),
+	text("Branden", 1),
+	text("Chorin", 1),
+	text("Ebers", 1),
+	text("Eich", 1),
+	text("Eisenhütten", 1),
+	text("Elster", 1),
+	text("Falken", 1),
+	text("Fichten", 1),
+	text("Finster", 1),
+	text("Frauen", 1),
+	text("Fried", 1),
+	text("Fürsten", 1),
+	text("Glienicke", 1),
+	text("Pankow", 1),
+	text("Grün", 1),
+	text("Gute", 1),
+	text("Halen", 1),
+	text("Havel", 1),
+	text("Heide", 1),
+	text("Heiligen", 1),
+	text("Heiners", 1),
+	text("Hennigs", 1),
+	text("Herms", 1),
+	text("Finow", 1),
+	text("Jänsch", 1),
+	text("Joachims", 1),
+	text("Jüter", 1),
+	text("Kremitz", 1),
+	text("Kümmernitz", 1),
+	text("Lichter", 1),
+	text("Lieber", 1),
+	text("Linden", 1),
+	text("Löwen", 1),
+	text("Lucken", 1),
+	text("Ludwigs", 1),
+	text("Marien", 1),
+	text("Buch", 1),
+	text("Märkisch ", 1),
+	text("Meyen", 1),
+	text("Mitten", 1),
+	text("Mühl", 1),
+	text("Neiße", 1),
+	text("Neuen", 1),
+	text("Neu", 1),
+	text("Peters", 1),
+	text("Nuthe", 1),
+	text("Ucker", 1),
+	text("Oder", 1),
+	text("Oranien", 1),
+	text("Panke", 1),
+	text("Paulinen", 1),
+	text("Perle", 1),
+	text("Pessnitz", 1),
+	text("Platten", 1),
+	text("Prenzlauer ", 1),
+	text("Raben", 1),
+	text("Rangs", 1),
+	text("Reh", 1),
+	text("Reichen", 1),
+	text("Reit", 1),
+	text("Retze", 1),
+	text("Rheins", 1),
+	text("Rhin", 1),
+	text("Rosen", 1),
+	text("Rüders", 1),
+	text("Schön", 1),
+	text("Schöne", 1),
+	text("Schöner", 1),
+	text("Schorf", 1),
+	text("Schwarz", 1),
+	text("Seddiner ", 1),
+	text("See", 1),
+	text("Senften", 1),
+	text("Sonne", 1),
+	text("Sonnen", 1),
+	text("Spreewald", 1),
+	text("Spree", 1),
+	text("Sprem", 1),
+	text("Straus", 1),
+	text("Temnitz", 1),
+	text("Treuen", 1),
+	text("Ucker", 1),
+	text("Vielitz", 1),
+	text("Witten", 1),
+	text("Wiesen", 1),
+	text("Wald", 1),
+	text("Zeschen", 1),
+	text("", 1),
+	}
+}
+town_names(suffixzwei) {
+	{
+	text("burg", 1),
+	text("berg", 1),
+	text("berge", 1),
+	text("hausen", 1),
+	text("stadt", 1),
+	text("stock", 1),
+	text("brietzen", 1),
+	text("walde", 1),
+	text("wald", 1),
+	text("dorf", 1),
+	text("dam", 1),
+	text("aue", 1),
+	text("tal", 1),
+	text("thal", 1),
+	text("er Land", 1),
+	text("bruch", 1),
+	text("hammer", 1),
+	text("feld", 1),
+	text("garten", 1),
+	text("höhe", 1),
+	text("brück", 1),
+	text("bruck", 1),
+	text("werder", 1),
+	text("lang", 1),
+	text("mark", 1),
+	text("grund", 1),
+	text("werk", 1),
+	text("münde", 1),
+	text("grabe", 1),
+	text("", 1),
+	}
+}
 town_names(region) {
-{
-	text("/Elbe", 2),
-	text("/Havel", 2),
-	text("/Spree", 2),
+	{
+	text("/Elbe", 1),
+	text("/Havel", 1),
+	text("/Spree", 1),
 	text("/Dosse", 1),
 	text("/Elster", 1),
-	text(" (Elbe)", 4),
-	text(" (Havel)", 4),
-	text(" (Spree)", 4),
-	text(" (Dosse)", 2),
-	text(" (Elster)", 2),
-	text(" bei Berlin", 2),
-	text(" (Mark)", 4),
-	text(" (Spreewald)", 4),
-	text(" (Prig)", 2),
+	text(" (Elbe)", 1),
+	text(" (Havel)", 1),
+	text(" (Spree)", 1),
+	text(" (Dosse)", 1),
+	text(" (Elster)", 1),
+	text(" bei Berlin", 1),
+	text(" (Mark)", 1),
+	text(" (Spreewald)", 1),
+	text(" (Prig)", 1),
 	text(" (Märkische Schweiz)", 1),
-	text(" (Lausitz)", 2),
-	text(" (Fläming)", 2),
-	text("/Mark", 2),
-	text("/Spreewald", 2),
-	text("/Prignitz", 2),
-	text("/Lausitz", 2),
-	text("/Fläming", 2),
+	text(" (Lausitz)", 1),
+	text(" (Fläming)", 1),
+	text("/Mark", 1),
+	text("/Spreewald", 1),
+	text("/Prignitz", 1),
+	text("/Lausitz", 1),
+	text("/Fläming", 1),
 	text(" (Oderbruch", 1),
 	text("/Nordbahn", 1),
 	text(" (Uckermark)", 1),
+	}
 }
-}
+
 
 town_names(doppelname) {
 	{
 	text("-",1),
 	}
 	{
-	 	town_names(stamm,2)
+	 	town_names(stammzwei,2)
 	}
 	{
-	 	town_names(suffix,2)
+	 	town_names(suffixzwei,2)
 	}
 }
 
@@ -476,8 +615,9 @@ town_names {
 	 	town_names(suffix,1)
 	}
 	{
-		text("",15),
+		text("",13),
 		town_names(doppelname,1),
+		town_names(suffixzwei,2)
 	}
 	{
 	 	town_names(region,1),
