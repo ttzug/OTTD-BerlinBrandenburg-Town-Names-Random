@@ -1,0 +1,8 @@
+##grflangid 0x01
+# This is the English language file
+
+# GRF name and description definitions
+STR_GRF_NAME        :Berlin Quartiers as Town Names
+STR_GRF_DESCRIPTION :All Official Berlin "Ortsteile" as Town Names
+
+STR_GAME_OPTIONS_TOWN_NAME_BBRANDOM:Berlin-Brandenburg Random
